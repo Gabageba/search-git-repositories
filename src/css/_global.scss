@@ -1,1 +1,15 @@
 @import "default_variables";
+
+* {
+  font-family: 'Roboto', serif;
+}
+
+body {
+  background-color: $bg-color;
+
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}

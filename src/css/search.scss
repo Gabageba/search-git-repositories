@@ -1,0 +1,33 @@
+@import "default_variables";
+
+.search {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+
+  &__input {
+    width: 100%;
+    background-color: $card-bg-color;
+    border: 2px solid $card-border-color;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    color: $text-color;
+    border-radius: 10px;
+  }
+
+  &__send-button {
+    width: 150px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: $button-bg-color;
+    color: $text-color;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $button-hover-bg-color;
+    }
+  }
+
+}

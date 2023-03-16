@@ -1,25 +1,10 @@
-$white: #FFF;
+$bg-color: #141414;
+$sub-color: #f44242;
+$text-color: #ffffff;
+$sub-text-color: #828282;
+$card-bg-color: #222222;
+$card-border-color: #424242;
+$button-hover-bg-color: #f55353;
+$button-bg-color: #f44242;
 
-%content-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-@mixin input-placeholder-color($color) {
-  &::-webkit-input-placeholder {
-    color: $color;
-  }
-
-  &:-moz-placeholder {
-    color: $color;
-  }
-
-  &::-moz-placeholder {
-    color: $color;
-  }
-
-  &:-ms-input-placeholder {
-    color: $color;
-  }
-}
