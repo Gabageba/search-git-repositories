@@ -6,10 +6,12 @@
 
 body {
   background-color: $bg-color;
+  margin-top: 0 !important;
 
 }
 
 .container {
   width: 1160px;
   margin: 0 auto;
+  position: relative;
 }
