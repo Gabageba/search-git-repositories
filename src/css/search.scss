@@ -5,16 +5,32 @@
   margin-top: 20px;
   display: flex;
   margin-bottom: 20px;
+  align-items: flex-start;
+
+  &__block {
+    width: 100%;
+    margin-right: 20px;
+  }
 
   &__input {
     width: 100%;
     background-color: $card-bg-color;
     border: 2px solid $card-border-color;
     padding: 10px 20px;
-    margin-right: 20px;
     font-size: 15px;
     color: $text-color;
     border-radius: 10px;
+  }
+
+  &__error {
+    border-color: $error-color;
+    background-color: $error-bg-color;
+  }
+
+  &__error_text {
+    color: $error-color;
+    margin-top: 10px;
+    margin-left: 5px;
   }
 
   &__send-button {
@@ -25,6 +41,8 @@
     background-color: $button-bg-color;
     color: $text-color;
     transition: all 0.2s ease-in-out;
+    padding-top: 12px;
+    padding-bottom: 12px;
 
     &:hover {
       background-color: $button-hover-bg-color;
