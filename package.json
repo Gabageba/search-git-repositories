@@ -1,6 +1,9 @@
 {
   "name": "beauty",
   "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/Gabageba/search-git-repositories.git"
+  },
   "main": "index.js",
   "author": "Alexandr Panteleev <88164077+Gabageba@users.noreply.github.com>",
   "license": "MIT",
@@ -8,10 +11,13 @@
   "scripts": {
     "start": "set NODE_ENV=development&&webpack serve --open",
     "dev": "set NODE_ENV=development&&webpack",
-    "build": "set NODE_ENV=production&&webpack"
+    "build": "set NODE_ENV=production&&webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.2",
