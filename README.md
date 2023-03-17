@@ -38,7 +38,7 @@ Here's a test project for work with git api
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Gabageba/conquest.git
+   git clone https://github.com/Gabageba/search-git-repositories.git
    ```
 2. Install packages
     ```sh
